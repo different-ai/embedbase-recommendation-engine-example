@@ -4,7 +4,7 @@ import ContentSection from "../../components/ContentSection";
 import { ClientSearchData } from "embedbase-js";
 import { getPostBySlug } from "../../lib/api";
 export default function Index({ post }) {
-    const fetcherSearch: Fetcher<ClientSearchData, string> = () => fetch('/api/search', {
+    const fetcherSearch: Fetcher<ClientSearchData, string> = () => fetch('/api/recommend', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: post.content }),
@@ -40,13 +40,10 @@ export default function Index({ post }) {
 
 export const getServerSideProps = async (ctx) => {
     const { post: postPath } = ctx.params
-    console.log('postPath', ctx.params);
     const post = getPostBySlug(postPath, [
         'title',
         'date',
         'slug',
-        'author',
-        'coverImage',
         'excerpt',
         'content'
     ])
@@ -56,4 +53,3 @@ export const getServerSideProps = async (ctx) => {
         },
     }
 }
-
