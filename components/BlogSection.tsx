@@ -18,8 +18,8 @@ export default function Example({ posts }: BlogSectionProps) {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
-          <div className="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Recommended articles</h2>
+          <div className="mt-10 space-y-16 border-t border-gray-200 pt-6 sm:mt-16 sm:pt-8">
             {posts.length === 0 &&
               <div role="status" className="max-w-md p-4 space-y-4 border border-gray-200 divide-y divide-gray-200 rounded shadow animate-pulse dark:divide-gray-700 md:p-6 dark:border-gray-700">
                 <div className="flex items-center justify-between">
