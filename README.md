@@ -3,7 +3,7 @@
 An example of building a recommendation system for a social publishing platform like medium.com
 in a few lines of code using [Embedbase](https://github.com/different-ai/embedbase).
 
-Read the full blog post at [link].
+Read the full blog post [here](https://betterprogramming.pub/using-openai-to-increase-time-spent-on-your-blog-3f138d5ae6aa).
 
 This is the empty tutorial, the complete one can be found on the ["complete" branch](https://github.com/different-ai/embedbase-recommendation-engine-example/tree/complete)
 
