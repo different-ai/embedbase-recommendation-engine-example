@@ -5,6 +5,8 @@ in a few lines of code using [Embedbase](https://github.com/different-ai/embedba
 
 Read the full blog post at [link].
 
+This is the empty tutorial, the complete one can be found on the ["complete" branch](https://github.com/different-ai/embedbase-recommendation-engine-example/tree/complete)
+
 ## Getting Started
 
 First, install the dependencies:
